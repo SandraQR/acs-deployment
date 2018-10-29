@@ -21,3 +21,7 @@ dependencies:
   version: 0.1.0
   condition: activemq.enabled
   repository: https://kubernetes-charts.alfresco.com/incubator
+- name: alfresco-digital-workspace
+  version: 1.0.0
+  condition: alfresco-digital-workspace.enabled
+  repository: https://kubernetes-charts.alfresco.com/incubator
